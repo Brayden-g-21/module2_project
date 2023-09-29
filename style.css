@@ -47,7 +47,7 @@ header h1 {
   color: black;
 }
 header h2 {
-  font-size: 12px;
+  font-size: 10px;
   background-color: #c5c6c0;
 }
 
@@ -64,7 +64,7 @@ header h2 {
 .banner img{
   display: block;
   max-width: 100%;
-  margin-top: 88px;
+  margin-top: 68px;
   width: 100%;
 }
 
