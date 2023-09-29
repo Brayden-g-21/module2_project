@@ -1,20 +1,29 @@
 body {
-  background-color: #aedcd1;
+  background-image: linear-gradient(to bottom, #86b5f4, #997555);
 }
 body, ul, h1, h2, p, li, a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
   }
 
 p {
     font-size: 18px;
 }
 
+a {
+  color: rgb(9, 9, 231);
+}
+
+a:hover {
+  color: red;
+}
+
 hr {
-  border: 2px solid #3b596c;
+  border: 2px solid #9c5b23;
 }
 
 header {
-  background-color: rgb(72, 111, 101);
+  background-color: #997555;
   padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -24,7 +33,7 @@ header {
 }
 
 .title {
-  background-color: #8dc7b8;
+  background-color: #c5c6c0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,18 +43,18 @@ header {
 header h1 {
   font-size: 30px;
   text-decoration: underline;
-  background-color: #8dc7b8;
+  background-color: #c5c6c0;
   color: black;
 }
 header h2 {
   font-size: 12px;
-  background-color: #8dc7b8;
+  background-color: #c5c6c0;
 }
 
 .selfie {
   height: 40px;
   width: 40px;
-  border: solid 4px #486f65;
+  border: solid 4px #997555;
   border-radius: 30px;
 }
 
@@ -53,8 +62,10 @@ header h2 {
   position: relative;
 }
 .banner img{
+  display: block;
   max-width: 100%;
   margin-top: 88px;
+  width: 100%;
 }
 
 article {
@@ -67,23 +78,48 @@ article h2 {
 } 
 
 .card  {
-  background-color: #9bcff0;
-  border: 5px solid #3b596c;
+  background-color: #e0e5cf;
+  border: 5px solid #997555;
   border-radius: 30px;
 }
 
 .card p {
-  background-color: #9bcff0;
+  background-color: #e0e5cf;
 }
-
-.article_img {
-  width: 100%;
-  justify-content: center;
-} 
-
 .article_img img {
  width: 80%;
  display: block;
  margin: auto;
  padding: 50px;
+}
+
+.footer_hr {
+  border: 20px solid #4e3825;
+  margin: 0px;
+}
+
+nav {
+  display: block;
+  background-color: #efd8b9;
+  width: 100%;
+  margin: auto;
+}
+nav h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #c5c6c0;
 }
