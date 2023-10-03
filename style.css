@@ -44,7 +44,7 @@ header h1 {
   font-size: 30px;
   text-decoration: underline;
   background-color: #c5c6c0;
-  color: black;
+  color: rgb(28, 0, 121);
 }
 header h2 {
   font-size: 10px;
@@ -81,10 +81,13 @@ article h2 {
   background-color: #e0e5cf;
   border: 5px solid #997555;
   border-radius: 30px;
+  box-shadow: 10px 10px;
+  margin: 30px;
 }
 
 .card p {
   background-color: #e0e5cf;
+  margin: 15px;
 }
 .article_img img {
  width: 80%;
@@ -122,4 +125,5 @@ nav a {
 
 footer {
   background-color: #c5c6c0;
+  padding: 15px;
 }
