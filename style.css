@@ -112,15 +112,18 @@ nav h2 {
   justify-content: center;
   margin-top: 0;
 }
-nav ul {
+.past-cards {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
   margin-bottom: 0;
+  flex-wrap: wrap;
 }
 
-nav a {
-  font-size: 20px;
+.project-name {
+  font-size: 25px;
+  padding: 15px;
 }
 
 footer {
